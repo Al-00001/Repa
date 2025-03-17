@@ -10,11 +10,11 @@
 # phrase = verb + ' ' + abjective + ' ' + noun
 #
 # print(phrase)
-try:
-    Name = input("Your Dog Name ? ")
-    Age = input("Your Dog Age ? ")
-    Age = int(Age)
-    print(f"{Name} Humen Age is {Age * 7}")
-except ValueError:
-    print("Error ! input data is vrong")
-
+# try:
+#     Name = input("Your Dog Name ? ")
+#     Age = input("Your Dog Age ? ")
+#     Age = int(Age)
+#     print(f"{Name} Humen Age is {Age * 7}")
+# except ValueError:
+#     print("Error ! input data is vrong")
+#
