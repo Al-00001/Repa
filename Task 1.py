@@ -12,8 +12,30 @@
 # else:
 #     print( Didgit, 'Correct didgit')
 
-digit = input('Your number')
-digit = int(digit)
-if digit % 3 != 0:
-    print('vrong')
-else: print('Ok')
+# digit = input('Your number')
+# digit = int(digit)
+# if digit % 3 != 0:
+#     print('vrong')
+# else: print('Ok')
+
+name = input('Your name is ? ')
+age = input('Haw long you worc in QA ?')
+Nambr = input('Du you nou wat is peremenay ?').lower()
+
+key_concepts = [
+    'oblasti pamyti',
+    'data storeg',
+    'neemted',
+    'saevted',
+    'data',
+    'mining',
+    'konteiner',
+    'identifikator'
+]
+
+understending_score = sum(concept in Nambr for concept in key_concepts)
+
+if understending_score >= 2:
+    print(f'Gud Job!, {name}')
+else:
+    print(f'Ti Lox {name}  !')

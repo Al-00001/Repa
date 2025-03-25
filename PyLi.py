@@ -68,5 +68,21 @@ print(coordinates[1])
 #
 # print('id 1', id(original))
 # print("id copy", id(copy_from_originale))
-Wewrw = "Зовут"
-print(Wewrw)
+
+
+# person = {'name': 'Alice', 'age': 17}
+# person['cite'] = 'moskou'
+# person.apend
+# del person['age']
+# print(person)
+
+# list = [1, 11, 111, 231, 1312, 321, 21, 3419]
+# list.append('43132')
+# list.remove(1)
+# list[1] = 'xer'
+# print(len(list))
+student = {'name': 'ivan', 'age': 20}
+student['grade'] = 'a'
+student['grade'] = 'b'
+del student['age']
+print(student['name'])
